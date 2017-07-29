@@ -5,6 +5,16 @@ struct Def{
     int string = '\0';
 
 };
+void Convert_Record(string catalyst)
+{
+    char app = '\0';
+
+    for (int index = 0; index < catalyst.length(); ++index){
+        app = catalyst[index];
+        cout << app;
+    }
+
+}
 int main()
 {
     Def def;
@@ -18,8 +28,24 @@ int main()
         app = style[index];
 
         def.string = app;
-
         cout << def.string << endl;
+
+        string input;
+
+        int record = 0;
+        int string;
+
+        string;
+
+        while (input != "exit")
+        {
+        input = string;
+        cin >> input;
+
+        Convert_Record(input);
+        }
+
+
 
 
     }
