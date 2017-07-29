@@ -32,7 +32,6 @@ int main()
 
         string input;
 
-        int record = 0;
         int string;
 
         string;
