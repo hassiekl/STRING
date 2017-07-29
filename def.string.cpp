@@ -2,7 +2,7 @@
 using namespace std;
 struct Def{
 
-    int string = 0;
+    int string = '\0';
 
 };
 int main()
